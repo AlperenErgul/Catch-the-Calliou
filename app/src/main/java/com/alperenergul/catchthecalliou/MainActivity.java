@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
            @Override
            public void onFinish() {
-               textView.setText("Time is FİNİTOOO");
+               textView.setText("Time is Finish");
                handler.removeCallbacks(runnable);
 
                for (ImageView image1 : imageArray){
